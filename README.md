@@ -1,6 +1,6 @@
 # ✈️ Airline Passenger Satisfaction Prediction
 
-## 📌 Project Overview
+##  Project Overview
 This Machine Learning project aims to predict airline passenger satisfaction based on flight characteristics and customer feedback. In a highly competitive industry, identifying dissatisfied customers proactively is a key lever for retention.
 We developed an end-to-end pipeline, comparing multiple classification models to select the best-performing solution for deployment.
 
@@ -11,14 +11,14 @@ We developed an end-to-end pipeline, comparing multiple classification models to
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 1.  **Predict Satisfaction:** Classify passengers as "Satisfied" or "Neutral/Dissatisfied" with high accuracy.
 2.  **Identify Key Drivers:** Understand which services (e.g., Wifi, Boarding) influence satisfaction the most.
 3.  **Benchmark Models:** Compare linear baselines against advanced ensemble methods.
 
 ---
 
-## 🛠️ Methodology
+##  Methodology
 We implemented a robust **Scikit-Learn Pipeline** including:
 * **Preprocessing:**
     * Median imputation for numerical missing values (e.g., delays).
@@ -42,9 +42,9 @@ After rigorous testing on the test set (20% split), our findings are:
 | Voting Classifier | 94.48% | 0.9856 | 0.9362 |
 | Logistic Regression | 87.66% | 0.9275 | 0.8558 |
 
-✅ **Champion Model:** XGBoost is the most reliable model.
-✅ **Robustness:** Confirmed by 5-Fold Cross-Validation (96.12% ± 0.20%).
-✅ **Business Drivers:** "Online Boarding" and "In-flight Wifi" are the top predictors of satisfaction.
+✅ **Champion Model:** XGBoost is the most reliable model.\\
+✅ **Robustness:** Confirmed by 5-Fold Cross-Validation (96.12% ± 0.20%).\\
+✅ **Business Drivers:** "Online Boarding" and "In-flight Wifi" are the top predictors of satisfaction.\\
 
 ---
 
